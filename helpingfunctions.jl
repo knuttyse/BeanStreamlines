@@ -4,7 +4,7 @@ function initialize(filename, numberOfLines::Int64)
     jc = readcsv("jc.csv")
     s = size(jc)
 
-    #rows and collumns:
+    # number of rows and collumns:
     nx = s[1]
     ny = s[2]
 
